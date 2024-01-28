@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>主题优化</title>
+      <link href="/2024/01/27/%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/"/>
+      <url>/2024/01/27/%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/</url>
+      
+        <content type="html"><![CDATA[<p>本片记录博客主题优化，持续更新，加油把博客装扮成花里胡哨吧哈哈</p><h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><ol><li><p>背景透明化</p><p>参考文章：<a href="https://blog.csdn.net/Growing_potato/article/details/113926856">https://blog.csdn.net/Growing_potato/article/details/113926856</a></p><p>修改source\_data\styles.styl 文件夹代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">body &#123;</span><br><span class="line">      background: url(/images/background.png);//自己喜欢的图片地址</span><br><span class="line">      background-size: cover;</span><br><span class="line">      background-repeat: no-repeat;</span><br><span class="line">      background-attachment: fixed;</span><br><span class="line">      background-position: 50% 50%;</span><br><span class="line">&#125;</span><br><span class="line">//博客内容透明化</span><br><span class="line">//文章内容的透明度设置</span><br><span class="line">.content-wrap &#123;</span><br><span class="line">  opacity: 0.8;</span><br><span class="line">&#125;</span><br><span class="line">.main-inner &#123; </span><br><span class="line">   // margin-top: 60px;</span><br><span class="line">   // padding: 60px 60px 60px 60px;</span><br><span class="line"></span><br><span class="line">   background: rgba(255,255,255,0.7) none repeat scroll !important;</span><br><span class="line">&#125;</span><br><span class="line">//侧边框的透明度设置</span><br><span class="line">.sidebar-inner &#123;</span><br><span class="line">  background: rgba(255,255,255,0.7) none repeat scroll !important;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">//菜单栏的透明度设置</span><br><span class="line">.header-inner &#123;</span><br><span class="line">  background: rgba(255,255,255,0.8);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">//搜索框（local-search）的透明度设置</span><br><span class="line">.popup &#123;</span><br><span class="line">  opacity: 0.8;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客优化记录 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第一篇博客</title>
       <link href="/2024/01/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
       <url>/2024/01/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
